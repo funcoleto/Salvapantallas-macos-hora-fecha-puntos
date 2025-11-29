@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -12,14 +12,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7AA6ECC22E91507000DD290C /* Exceptions for "TesterApp" folder in "WallpaperMac" target */ = {
+		7AA6ECC22E91507000DD290C /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				ViewController.swift,
 			);
 			target = 7AA6EC9F2E91484300DD290C /* WallpaperMac */;
 		};
-		7AA6ECC42E91516300DD290C /* Exceptions for "WallpaperMac" folder in "TesterApp" target */ = {
+		7AA6ECC42E91516300DD290C /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Salvapantallas.swift,
@@ -29,22 +29,8 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7AA6ECA22E91484300DD290C /* WallpaperMac */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7AA6ECC42E91516300DD290C /* Exceptions for "WallpaperMac" folder in "TesterApp" target */,
-			);
-			path = WallpaperMac;
-			sourceTree = "<group>";
-		};
-		7AA6ECB32E914E7500DD290C /* TesterApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7AA6ECC22E91507000DD290C /* Exceptions for "TesterApp" folder in "WallpaperMac" target */,
-			);
-			path = TesterApp;
-			sourceTree = "<group>";
-		};
+		7AA6ECA22E91484300DD290C /* WallpaperMac */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7AA6ECC42E91516300DD290C /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = WallpaperMac; sourceTree = "<group>"; };
+		7AA6ECB32E914E7500DD290C /* TesterApp */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7AA6ECC22E91507000DD290C /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = TesterApp; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +147,7 @@
 				};
 			};
 			buildConfigurationList = 7AA6EC9A2E91484300DD290C /* Build configuration list for PBXProject "WallpaperMac" */;
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -169,7 +156,6 @@
 			);
 			mainGroup = 7AA6EC962E91484300DD290C;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7AA6ECA12E91484300DD290C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
